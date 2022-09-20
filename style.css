@@ -1,0 +1,59 @@
+.container{
+    font-size: 20px;
+    color: rgb(182, 65, 65);
+    background-color: black ;
+    border-radius: 20px;
+    border-top: 8px solid rgb(15, 176, 188);
+    border-left: 8px solid rgb(15, 176, 188);
+    
+text-align: center;
+    width:350px;
+    padding:10px;
+    height:300px;
+margin: 0px;
+overflow: hidden;
+transition: .2s;
+box-shadow: rgba(224, 29, 52, 0.4)5px 5px, rgba(237, 58, 85, 0.3)5px 5px, #e63f3f 5px 5px,rgba(238, 23, 23, 0.1)5px 5px;;
+}
+
+.container:hover{
+    background-color: black;
+    font-size: large;
+    transform: scale(1.1);
+}
+span{
+    font-weight: bolder;
+    padding-left: 10px;
+    color:azure;
+    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span:hover{
+    color: rgb(221, 13, 82);
+}
+body{
+    background-color: rgb(198, 127, 13);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("https://www.solidbackgrounds.com/images/1920x1080/1920x1080-chrome-yellow-solid-color-background.jpg");
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+a:hover{
+    color: crimson;
+
+}
+.nav-container:hover{
+    color:crimson; 
+
+}
+
+p{
+    color: wheat;
+
+}
+.nav-container{
+    margin:30px;
+}
